@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="text" id="userInput">
+    <button id="submitBtn">Submit</button>
+    <script>
+        const user = document.getElementById("userInput");
+        const subBtn = document.getElementById("submitBtn");
+        subBtn.addEventListener("click", function() {
+            if (user.value === "") {
+                alert("Please fill this column");
+            } else {
+                alert("submitted");
+            }
+        });
+    </script>
+</body>
+</html>

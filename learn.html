@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="youtbe-feed" style="border: 2px solid black ; padding: 20px;">
+          <h2>trending video</h2>
+    </div>
+    <script>
+        const feed = document.getElementById("youtbe-feed")
+        const videocard = document.createElement("div");
+        videocard.classList.add("video-card")
+        videocard.style.border = "1px solid red"
+        videocard.style.margin = "10px"
+        const title = document.createElement("h3")
+        title.innerText = "I heard my own voice"
+        const views = document.createElement("p")
+        views.innerText = "1.2M . 2 hoursago"
+
+        videocard.append(title , views , "-New upload!")
+        const badge = document.createElement("span")
+        badge.innerText = "trending"
+        videocard.prepend(badge)
+        
+        feed.appendChild(videocard)
+        
+    </script>
+</body>
+</html>
