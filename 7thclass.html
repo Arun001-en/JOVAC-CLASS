@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="7thclass.css">
+    <title>Tech Store</title>
+</head>
+<body>
+    <div class="app-container">
+    <h1>Tech Store Explorer</h1>
+    
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search products (e.g. laptop)..." />
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="loadingIndicator" class="hidden">⏳ Fetching latest products...</div>
+    <div id="errorMessage" class="hidden error-text"></div>
+    
+    <div id="productGrid" class="grid-container"></div>
+</div>
+
+<script src="7thclass.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-// let n = 2026;
+// let n = 2000;
 // let count =0;
 
 // while(n>0){
@@ -43,12 +43,8 @@
 //     }
 
 //     console.log(outervar);
-//     console.log(innerVar);
-    
-    
-    
+//     console.log(innerVar);      
 // }
-
 // a();
 
 
@@ -116,10 +112,10 @@
 
 
 // const smartPhones = [
-//     {name:"iphone", price:8000, rating:4.8},
-//     {name:"vivo", price:9000, rating:4.6},
-//     {name:"samsung", price:7000, rating:4.9},
-//     {name:"samsung", price:7000, rating:3.7},
+//     {name:"iphone", price:81000, rating:4.8},
+//     {name:"vivo", price:65000, rating:4.6},
+//     {name:"samsung", price:90000, rating:4.9},
+//     {name:"samsung", price:80000, rating:3.7},
 // ];
 
 // const result = smartPhones
